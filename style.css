@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('mainimg.jpg');
+    position: fixed;
+}
+.navbar a:hover{
+    color: lightcoral;
+}
+.left{
+    display: flex;
+}
+.left a{
+    text-decoration: none;
+    margin: 10px 20px;
+    color: rgb(125, 110, 110);
+}
+.right{
+    display: flex;
+}
+.right a{
+    text-decoration: none;
+    margin: 10px 20px;
+    color: rgb(125, 110, 110);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightblue; */
+    height: 595px;
+    /* background-color: rgba(0, 0, 0,0.2); */
+    background-image: url('mainimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main h1{
+    color: white;
+    font-size: 100px;
+}
+span{
+    color: lightcoral;
+}
+.box1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    border-radius:50px ;
+    box-shadow: 10px 10px 10px 0px rgb(145, 141, 141);
+}
+.box1 input{
+    font-size: larger;
+    border: 0;
+    outline: none;
+    width: 350px;
+}
+.book{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     background-color: dimgray; 
+    height: 50px;
+
+}
+.box{
+    display: flex;
+}
+.a1{
+    /* padding: 2px; */
+    width: 125px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.a2{
+    width: 125px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.a3{
+    width: 125px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+    margin-left:50px ;
+    color: white;
+}
+.about{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 20px;
+    text-align: center;
+}
+.left1{
+    width: 50%;
+    height: 300px;
+  /* border: 2px solid black;    */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.left1 a{
+    border: 2px solid black;
+    width:185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: dimgray;
+    height:45px;
+}
